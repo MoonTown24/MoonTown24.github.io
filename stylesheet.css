@@ -1,5 +1,8 @@
 stylesheet.css
 
+*{
+	box-sizing: border-box;
+}
 
 .clear {
 	clear: both;
@@ -11,9 +14,7 @@ stylesheet.css
 
 
 
-p {
-	line-height: 10px;
-}
+
 
 
 .header {
@@ -44,9 +45,11 @@ li {
 	margin-right:20px;
 }
 /*-- Welcom --*/
+.welcom {
+	position: relative;
+}
 
 .welcom-fot{
-	position: relative;
 	width: 100%;
 }
 
@@ -54,9 +57,12 @@ li {
 
 .welcom-talk {
 	position: absolute;
-	top:70%;
-	right: 5%;
+	top:25%;
+	right: 0;
+	padding-right: 5%;
 	color:white;
+	background-color: rgba(0,0,0,0.2);
+
 }
 
 /*--Profile--*/
@@ -80,6 +86,7 @@ li {
 	font-size: 30px;
 	background-color:rgba(34,34,179,0.6);
 	height: 100%;
+	line-height: 1em;
 }
 .intro h1{
 	margin-left: 20px;
@@ -115,9 +122,8 @@ li {
 	margin-bottom: 3%;
 }
 .work {
-	max-width: 70%;
 	margin-top: 30%;
-
+	max-width: 70%
 }
 
 .pe {
@@ -161,7 +167,9 @@ li {
 /*-- MISSION --*/
 .mission {
 	text-align: center;
-	margin:5%;
+	padding:5%;
+	background-color: #111111;
+	color: white;
 }
 
 .mission-h1{
@@ -174,4 +182,43 @@ li {
 .mission-ste {
 	width: 100%;
 	height: 100%;
+}
+
+
+
+
+
+
+
+
+/*-- タブレット用レイアウト--*/
+
+@media(max-width: 1000px) {
+
+.welcom-talk {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/*-- タブレット用レイアウト--*/
+
+@media(max-width: 670px){
+.welcom-talk {
+	padding-right: 1em;
+}
 }
