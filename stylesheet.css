@@ -1,0 +1,177 @@
+stylesheet.css
+
+
+.clear {
+	clear: both;
+}
+.name {
+	color: #b22222;
+	font-size:1.2em;
+}
+
+
+
+p {
+	line-height: 10px;
+}
+
+
+.header {
+	background-color:rgba(0,0,0,0.7);
+	height: 70px;
+	width: 100%;
+	color:white;
+	position: fixed;
+	top:0;
+	z-index: 1;	
+	font-size:25px;
+}
+.header-title {
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px
+
+}
+
+.header-list{
+	float: right;
+	font-size:28px;
+	display: none;
+}
+li {
+	list-style: none;
+	float:left;
+	margin-right:20px;
+}
+/*-- Welcom --*/
+
+.welcom-fot{
+	position: relative;
+	width: 100%;
+}
+
+
+
+.welcom-talk {
+	position: absolute;
+	top:70%;
+	right: 5%;
+	color:white;
+}
+
+/*--Profile--*/
+
+.main-fot {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.profile {
+	position:relative;
+}
+
+.intro {
+	position: absolute;
+	color: white;
+	width: 50%;
+	top: 0;
+	right: 0;
+	font-size: 30px;
+	background-color:rgba(34,34,179,0.6);
+	height: 100%;
+}
+.intro h1{
+	margin-left: 20px;
+}
+.intro p{
+	margin-left: 20px;
+	margin-right:  20px;
+}
+
+
+/*-- Performance --*/
+
+.performance{
+	margin-top: 5%;		
+	margin-bottom: 10%;
+}
+
+.performance h1{
+	font-size:28px;
+	text-align: center;
+}
+.performance p{
+	font-size:20px;
+}
+
+.event {
+	display: flex;
+}
+
+.work-fot{
+	width: 30%;
+	float: left;
+	margin-bottom: 3%;
+}
+.work {
+	width: 70%;
+	margin-top: 30%;
+
+}
+
+.pe {
+	width: 70%;
+	float: left;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: left;
+
+}
+
+.under{
+	border-bottom: solid 3px #b22222;
+}
+
+.pe-main {
+	line-height: 1.5em;
+}
+/*-- STORY--*/
+.story{
+	display: block;
+	text-align: center;
+	background-color: #dcdcdc;
+	padding:3%;
+}
+
+.story h1{
+	font-size:38px;
+}
+.story h2{
+	font-size:30px;
+}
+
+.story p{
+	display: inline-block;
+	text-align: left;
+	line-height: 2em;
+}
+
+
+/*-- MISSION --*/
+.mission {
+	text-align: center;
+	margin:5%;
+}
+
+.mission-h1{
+	font-size: 40px;
+}
+.mission p{
+	margin-bottom: 5%;
+	font-size:20px;
+}
+.mission-ste {
+	width: 100%;
+	height: 80vh;
+}
