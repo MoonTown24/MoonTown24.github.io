@@ -115,7 +115,7 @@ li {
 	margin-bottom: 3%;
 }
 .work {
-	width: 70%;
+	max-width: 70%;
 	margin-top: 30%;
 
 }
