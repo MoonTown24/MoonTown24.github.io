@@ -65,6 +65,7 @@ li {
 .welcom{
 	width: 100%;
 	position: relative;
+	font-size:0;
 }
 
 .welcom img{
@@ -103,9 +104,12 @@ li {
 	top: 0;
 	right: 0;
 	background-color:rgba(34,34,179,0.6);
-	height: 99.4%;
+	height: 100%;
 }
 
+.intro-talk {
+	padding:2%;
+}
 
 
 
@@ -115,6 +119,7 @@ li {
 	margin-top: 5%;		
 	margin-bottom: 10%;
 	text-align: center;
+	overflow: hidden;
 
 }
 
@@ -153,22 +158,19 @@ li {
 
 /*-- STORY--*/
 .story{
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	background-color: #dcdcdc;
 	padding:3%;
-
+	background-color: #dcdcdc;
 }
-
 
 .story p{
 	text-align: left;
 	margin-bottom: 1.1em;
 	margin-right: 5%;
 	margin-left: 10%;
-
+	
 }
 
 
@@ -201,25 +203,18 @@ body {
 
 .pe{
 	font-size:16px;
+	margin-right: 2%
+	margin-left:2%;
 }
 
 .performance p{
 	font-size:16px;
 }
 
-.intro {
-	width: 100%;
-	background-color:rgba(34,34,179,0.5);
-	height: 99.4%;
-}
-.intro-talk p{
-	line-height: 1.1em
-}
 
 .event {
 	display: block;
 }
-
 .web-fot{
 	display: none !important;
 }
@@ -227,6 +222,7 @@ body {
 .sh-fot{
 	display: block !important;
 }
+
 
 .work-fot{
 	width: 100%;
@@ -238,9 +234,26 @@ body {
 	max-width: 70%;
 }
 
+.intro {
+	width: 100%;
+	background-color:rgba(34,34,179,0.5);
+	height: 100%;
+}
+.intro-talk p{
+	line-height: 1.2em
+}
+.pc {
+	display: none;
+}
+
 }
 
 
+/*-- footer --*/
+.footer {
+	text-align: center;
+	color:#222222;
+}
 
 
 
@@ -250,10 +263,23 @@ body {
 body {
 	font-size:14px;
 } 
+
+.pe{
+	font-size:16px;
+	margin-right: 2%
+	margin-left:2%;
+}
+
+.performance {
+	background-color: white;
+}
+
+.performance p{
+	font-size:14px;
+}
+
 .event {
 	display: block;
-
-
 }
 .web-fot{
 	display: none !important;
@@ -274,21 +300,16 @@ body {
 	max-width: 70%;
 }
 
-.pe{
-	font-size:14px;
-}
-
-.performance p{
-	font-size:14px;
-}
-
 .intro {
 	width: 100%;
 	background-color:rgba(34,34,179,0.5);
-	height: 99.4%;
+	height: 100%;
 }
 .intro-talk p{
-	line-height: 1.1em
+	line-height: 1.5em
+}
+.pc {
+	display: none;
 }
 
 }
