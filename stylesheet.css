@@ -2,14 +2,16 @@ stylesheet.css
 
 *{
 	box-sizing: border-box;
+	font-size:16px;
 }
+
 
 .clear {
 	clear: both;
 }
 .name {
 	color: #b22222;
-	font-size:1.2em;
+	font-size:1.2rem;
 }
 
 
@@ -19,24 +21,21 @@ stylesheet.css
 
 .header {
 	background-color:rgba(0,0,0,0.7);
-	height: 70px;
+	height: 10%;
 	width: 100%;
 	color:white;
 	position: fixed;
 	top:0;
 	z-index: 1;	
-	font-size:25px;
 }
 .header-title {
 	float: left;
-	margin-left: 30px;
-	margin-top: 10px
-
+	margin-top:2%;
+	margin-left: 2%;
 }
 
 .header-list{
 	float: right;
-	font-size:28px;
 	display: none;
 }
 li {
@@ -80,18 +79,11 @@ li {
 	width: 50%;
 	top: 0;
 	right: 0;
-	font-size: 30px;
 	background-color:rgba(34,34,179,0.6);
 	height: 100%;
-	line-height: 1em;
 }
-.intro h1{
-	margin-left: 20px;
-}
-.intro p{
-	margin-left: 20px;
-	margin-right:  20px;
-}
+
+
 
 
 /*-- Performance --*/
@@ -99,14 +91,14 @@ li {
 .performance{
 	margin-top: 5%;		
 	margin-bottom: 10%;
+	font-size:0.5rem;
 }
 
 .performance h1{
-	font-size:28px;
 	text-align: center;
 }
 .performance p{
-	font-size:20px;
+
 }
 
 .event {
@@ -137,7 +129,7 @@ li {
 }
 
 .pe-main {
-	line-height: 1.5em;
+
 }
 /*-- STORY--*/
 .story{
@@ -148,16 +140,15 @@ li {
 }
 
 .story h1{
-	font-size:38px;
+
 }
 .story h2{
-	font-size:30px;
+
 }
 
 .story p{
 	display: inline-block;
 	text-align: left;
-	line-height: 2em;
 }
 
 
@@ -170,11 +161,11 @@ li {
 }
 
 .mission-h1{
-	font-size: 40px;
+
 }
 .mission p{
 	margin-bottom: 5%;
-	font-size:20px;
+
 }
 .mission-ste {
 	width: 100%;
