@@ -1,27 +1,45 @@
 stylesheet.css
 
 *{
-	box-sizing: border-box;
-	font-size:16px;
+	box-sizing: border-box;	
 }
 
+body {
+	font-size:24px;
+}
+
+h1{
+	font-size:1.8em;
+}
+
+h2{
+	font-size:1.5em;
+}
+
+h3{
+	font-size: 1.2em;
+}
+
+p{
+	margin-top:1px;
+	margin-bottom: 1px;
+	font-size:1em;
+}
 
 .clear {
 	clear: both;
 }
 .name {
 	color: #b22222;
-	font-size:1.2rem;
+	font-size:1.2em;
 }
-
-
 
 
 
 
 .header {
 	background-color:rgba(0,0,0,0.7);
-	height: 10%;
+	height: 5%;
 	width: 100%;
 	color:white;
 	position: fixed;
@@ -30,7 +48,6 @@ stylesheet.css
 }
 .header-title {
 	float: left;
-	margin-top:2%;
 	margin-left: 2%;
 }
 
@@ -63,9 +80,7 @@ li {
 
 /*--Profile--*/
 
-.main-fot {
-	display: block;
-	margin: 0 auto;
+.profile img{
 	width: 100%;
 }
 
@@ -80,6 +95,9 @@ li {
 	top: 0;
 	right: 0;
 	background-color:rgba(34,34,179,0.6);
+	height: 99.4%;
+}
+.intro-talk {
 	height: 100%;
 }
 
@@ -88,67 +106,64 @@ li {
 
 /*-- Performance --*/
 
-.performance{
+.performance {
 	margin-top: 5%;		
 	margin-bottom: 10%;
-	font-size:0.5rem;
-}
-
-.performance h1{
 	text-align: center;
-}
-.performance p{
 
 }
+
+.performance p{
+	font-size:24px;
+}
+
 
 .event {
 	display: flex;
+
 }
 
 .work-fot{
 	width: 30%;
 	float: left;
-	margin-bottom: 3%;
 }
+
 .work {
-	margin-top: 30%;
-	max-width: 70%
+	margin-top: 50%;
+	max-width: 70%;
 }
 
 .pe {
-	width: 70%;
+	width: 100%;
 	float: left;
-	margin-top: 5%;
 	margin-bottom: 5%;
 	text-align: left;
-
+	font-size:24px;
 }
 
 .under{
 	border-bottom: solid 3px #b22222;
 }
 
-.pe-main {
 
-}
 /*-- STORY--*/
 .story{
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	background-color: #dcdcdc;
 	padding:3%;
-}
-
-.story h1{
 
 }
-.story h2{
 
-}
 
 .story p{
-	display: inline-block;
 	text-align: left;
+	margin-bottom: 1.1em;
+	margin-right: 5%;
+	margin-left: 10%;
+
 }
 
 
@@ -178,15 +193,10 @@ li {
 /*-- タブレット用レイアウト--*/
 
 @media(max-width: 1000px) {
+body {
+	font-size:16px;
+} 
 
-.welcom-fot{
-	width: 120
-}
-
-.welcom-talk {
-
-
-}
 
 
 
@@ -207,8 +217,9 @@ li {
 /*-- タブレット用レイアウト--*/
 
 @media(max-width: 670px){
-.welcom-talk {
-
+body {
+	font-size:14px;
+} 
 }
 
 
