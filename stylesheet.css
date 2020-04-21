@@ -45,24 +45,21 @@ li {
 	margin-right:20px;
 }
 /*-- Welcom --*/
-.welcom {
+
+.welcom{
+	width: 100%;
 	position: relative;
 }
 
-.welcom-fot{
-	width: 100%;
+.welcom img{
+	width:100%;
 }
-
-
 
 .welcom-talk {
 	position: absolute;
-	top:25%;
-	right: 0;
-	padding-right: 5%;
-	color:white;
-	background-color: rgba(0,0,0,0.2);
-
+	bottom:20%;
+	right: 5%;
+	color: white;
 }
 
 /*--Profile--*/
@@ -187,15 +184,16 @@ li {
 
 
 
-
-
-
-
 /*-- タブレット用レイアウト--*/
 
 @media(max-width: 1000px) {
 
+.welcom-fot{
+	width: 120
+}
+
 .welcom-talk {
+
 
 }
 
@@ -219,6 +217,8 @@ li {
 
 @media(max-width: 670px){
 .welcom-talk {
-	padding-right: 1em;
+
 }
-}
+
+
+
