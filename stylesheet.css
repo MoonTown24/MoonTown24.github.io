@@ -65,7 +65,6 @@ li {
 .welcom{
 	width: 100%;
 	position: relative;
-	font-size:0;
 }
 
 .welcom img{
@@ -74,7 +73,7 @@ li {
 
 .welcom-talk {
 	position: absolute;
-	top:60%;
+	bottom: 30%;
 	right: 5%;
 	color: white;
 }
