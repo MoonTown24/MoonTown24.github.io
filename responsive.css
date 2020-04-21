@@ -1,0 +1,66 @@
+@media(max-width: 1000px) {
+body {
+	font-size:16px;
+} 
+
+.pe{
+	font-size:16px;
+}
+
+.performance p{
+	font-size:16px;
+}
+
+}
+
+
+
+
+
+/*-- タブレット用レイアウト--*/
+
+@media(max-width: 670px){
+body {
+	font-size:14px;
+} 
+.event {
+	display: block;
+
+
+}
+.web-fot{
+	display: none;
+}
+
+.sh-fot{
+	display:inline;
+}
+
+.work-fot{
+	width: 100%;
+}
+
+.work {
+	margin-top: 10%;
+	text-align: center;
+	max-width: 70%;
+}
+
+.pe{
+	font-size:14px;
+}
+
+.performance p{
+	font-size:14px;
+}
+
+.intro {
+	width: 100%;
+	background-color:rgba(34,34,179,0.5);
+	height: 99.4%;
+}
+.intro-talk p{
+	line-height: 1.1em
+}
+
+}
