@@ -2,6 +2,7 @@ stylesheet.css
 
 *{
 	box-sizing: border-box;	
+	font-family: serif;
 }
 
 body {
@@ -45,21 +46,52 @@ p{
 	position: fixed;
 	top:0;
 	z-index: 1;	
+	font-family:georgia,"serif";
 }
 .header-title {
 	float: left;
 	margin-left: 2%;
 }
 
-.header-list{
-	float: right;
-	display: none;
+
+.menu{
+	width: 100%
 }
-li {
+
+.menu-list{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 100%;
+	text-align: center;
+}
+
+.menu-list li {
 	list-style: none;
-	float:left;
-	margin-right:20px;
+	position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-left: solid 4px #b22222;
+    border-right: solid 4px #b22222;
+    color: #b22222;
+    background:#fff ;
+    transition: .4s;	
 }
+
+.menu-list li:hover {
+	background: rgba(0,0,0,0.7);
+    color: #fff;
+}
+.menu-list a:hover{
+    color: #fff;
+
+}
+.menu-list a{
+	color: #b22222;
+	text-decoration: none;
+}
+
 /*-- Welcom --*/
 
 .welcom{
@@ -69,11 +101,12 @@ li {
 
 .welcom img{
 	width:100%;
+	
 }
 
 .welcom-talk {
 	position: absolute;
-	bottom: 30%;
+	bottom:30%;
 	right: 5%;
 	color: white;
 }
@@ -94,6 +127,8 @@ li {
 
 .profile {
 	position:relative;
+	clear: left;
+
 }
 
 .intro {
@@ -104,6 +139,7 @@ li {
 	right: 0;
 	background-color:rgba(34,34,179,0.6);
 	height: 100%;
+
 }
 
 .intro-talk {
