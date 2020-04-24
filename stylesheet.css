@@ -231,7 +231,12 @@ p{
 	height: 100%;
 }
 
+/*- footer -*/
 
+.footer{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
 
 
 /*-- タブレット用レイアウト--*/
