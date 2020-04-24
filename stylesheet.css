@@ -61,16 +61,21 @@ p{
 .menu-list{
 	margin-top: 5%;
 	margin-bottom: 5%;
-	width: 100%;
+	max-width: 100%;
 	text-align: center;
 }
+
+.menu-list ul{
+	padding:0px;
+}
+
 
 .menu-list li {
 	list-style: none;
 	position: relative;
     display: inline-block;
     font-weight: bold;
-    padding: 0.5em 1em;
+    padding: 0.3em 0.7em;
     text-decoration: none;
     border-left: solid 4px #b22222;
     border-right: solid 4px #b22222;
